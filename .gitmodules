@@ -1,0 +1,20 @@
+[submodule "libkrun"]
+	path = libkrun
+	url = https://github.com/yzewei/libkrun.git
+	branch = build_loongarch
+	shallow = true
+[submodule "libkrunfw"]
+	path = libkrunfw
+	url = https://github.com/yzewei/libkrunfw.git
+	branch = loongarch-single-vcpu-libkrunfw-pr1
+	shallow = true
+[submodule "muvm"]
+	path = muvm
+	url = https://github.com/yzewei/muvm.git
+	branch = main
+	shallow = true
+[submodule "lat"]
+	path = lat
+	url = https://github.com/lat-opensource/lat
+	branch = master
+	shallow = true
